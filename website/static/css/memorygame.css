@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo', sans-serif;
+    background: linear-gradient(to right, blue, aqua, pink);
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+#grid {
+    width: 580px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grid img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0.5em;
+    cursor: pointer;
+}
+.game h3 {
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+#score {
+    color: blue;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.text {
+    top: 100;
+    position: absolute;
+    font-size: 40px;
+    display: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    width: 200px;
+    background: hsla(240, 92%, 65%, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 2px 2px 5px blue;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a button {
+    justify-content: center;
+}
+
+button:hover {
+    background-color: black;
+}
+
+h1 {
+    margin: 0.2rem auto;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 100px white;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 5px white;
+}
+
+#home {
+    display: none;
+}

@@ -1,0 +1,53 @@
+
+.btn{
+    border-radius: 100%;
+    background-color: black;
+    font-size: 1.2rem;
+    color:#fff;
+    border:2px solid #4f4f4f;
+    padding:1% 2%;
+}
+.heading{
+    text-align: center;
+}
+.btn:hover{
+    background: #ffffff;
+}
+.btn-1,.btn-2,.btn-3,.btn-4,.btn-5{
+    position: absolute;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn-1{
+    margin: 27%;
+}
+.btn-2{
+    margin: 28% 0% 0% 65%;
+}
+.btn-3{
+    margin: 18% 0% 0% 58%;
+}
+.btn-4{
+    margin: 11% 0% 0% 38%;
+}
+.btn-5{
+    margin: 3% 0% 0% 47%;
+}
+
+@media screen and (max-width:394px){
+    .btn-1{
+        margin:120% 30%;
+    }
+    .btn-2{
+        margin:125% 70%;
+    }
+    .btn-3{
+        margin:90% 50%;
+    }
+    .btn-4{
+        margin:62% 35%;
+    }
+    .btn-5{
+        margin:30% 40%;
+    }
+}

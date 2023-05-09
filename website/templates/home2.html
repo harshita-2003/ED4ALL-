@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed4All</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home2.css') }}">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>
+{% include "alert.html" %}
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                ED4ALL<i class='bx bx-book-open'></i>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <!-- Connect to harshi's home page (a href = )-->
+                        <a href="/logout" class="nav__link active-link">
+                            <i class="bx bx-home-alt-2"></i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#english" class="nav__link active-link">
+                            <i class='bx bx-sort-z-a'></i>
+                            <span>English</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#gk" class="nav__link">
+                            <i class='bx bx-world' ></i>
+                            <span>GK</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#science" class="nav__link">
+                            <i class='bx bxs-flask'></i>
+                            <span>Science</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#maths" class="nav__link">
+                            <i class='bx bx-plus'></i>
+                            <span>Maths</span>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="welcome">Welcome To ED4ALL!</h1>
+                    <h1 class="home__title">
+                        For<br> Gaming Involves<br> LEARNING <span style="color: var(--second-color);">#</span>
+                    </h1>
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                UNICEF
+                            </h1>
+                            <span class="home__value-description">
+                                Children are <br> Future of the world
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                EDUCATION
+                            </h1>
+                            <span class="home__value-description">
+                                For there is <br> No age for Learning
+                            </span>
+                        </div>
+                        <div>
+                            <img src="static/images/unicef.png" id="unicef">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__pictures">
+                    </div>
+                    <div class="home__img">
+                        <img src="static/images/education.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game section" id="game">
+            <div class="container">
+                <div class="text">
+                    <span class="section__subtitle">Learning and Growing Together!</span>
+                    <h2 class="section__title">
+                        GAME-MAP<span>#</span>
+                    </h2>
+                    <ol type="1">
+                        <li>SIMON-SAYS-GAME</li>
+                        <li>MEMORY-GAME</li>
+                        <li>WORDLE-GAME</li>
+                        <li>SCIENCE-QUIZ</li>
+                        <li>MATHS-QUIZ</li>
+                    </ol>
+                    <a href="/gamemap"><button id="game-btn" >EXPLORE GAME-MAP</button></a>
+                </div>
+                <div class="game-img">
+                        <img src="static/images/people-removebg-preview.png" id="game-img">
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="english section" id="english">
+            <div class="container">
+                <div class="text">
+                    <span class="section__subtitle">Universal Language</span>
+                    <h2 class="section__title">
+                        English <span>#</span>
+                    </h2>
+                    <ol type="A">
+                        <li>Course for people knowing basic English</li>
+                        <li>Enhanced understanding in the language</li>
+                        <li>"<font style="color: rgb(11, 211, 11);">WORDLE-GAME</font>" In Game Map</li>
+                    </ol>
+                    <iframe src="https://www.youtube.com/embed/4V0wKH6hd30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="modes">
+                    <div class="words">
+                        <img src="static/images/words-removebg-preview.png" id="words">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="science section" id="science">
+            <div class="container">
+                <div class="text">
+                    <span class="section__subtitle">Natural Phenomena</span>
+                    <h2 class="section__title">
+                        Science <span>#</span>
+                    </h2>
+                    <ol type="A">
+                        <li>Course for science geeks!</li>
+                        <li>Understand the principle and occurence of natural phenomenon</li>
+                        <li>"<font style="color: rgb(11, 211, 11);">SCIENCE-QUIZ</font>"  In Game Map</li>
+                    </ol>
+                    <iframe src="https://www.youtube.com/embed/K-Fc08X56R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="modes">
+                    <div class="quiz">
+                        <img src="static/images/image-removebg-preview (15).png" id="science__quiz">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gk section" id="gk">
+            <div class="container">
+                <div class="text">
+                    <span class="section__subtitle">Awareness & Updates</span>
+                    <h2 class="section__title">
+                        General Knowledge <span>#</span>
+                    </h2>
+                    <ol type="A">
+                        <li>Stay updated with the Global advancements</li>
+                        <li>"<font style="color: rgb(11, 211, 11);">MEMORY-GAME</font>" In Game Map</li>
+                        <li>"<font style="color: rgb(11, 211, 11);">SIMON-SAYS-GAME</font>" In Game Map</li>
+                    </ol>
+                    <iframe src="https://www.youtube.com/embed/BoBapnk6TB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="modes">
+                    <div class="quiz">
+                        <img src="static/images/GK-removebg-preview.png" id="gk__quiz">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="maths section" id="maths">
+            <div class="container">
+                <div class="text">
+                    <span class="section__subtitle">Understanding Numbers</span>
+                    <h2 class="section__title">
+                        Mathematics <span>#</span>
+                    </h2>
+                    <ol type="A">
+                        <li>For numbers are meant to play around!</li>
+                        <li>Logical building with basic Maths</li>
+                        <li>"<font style="color: rgb(11, 211, 11);">MATHS-QUIZ</font>"  In Game Map</li>
+                    </ol>
+                    <iframe src="https://www.youtube.com/embed/LwCRRUa8yTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="quiz">
+                        <img src="static/images/image-removebg-preview (14).png" id="quiz">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

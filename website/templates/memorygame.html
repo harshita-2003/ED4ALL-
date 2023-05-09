@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory-Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/memorygame.css') }}">
+<body>
+        <h1>MEMORY-TILES</h1>
+        <h3>Match the tiles with their respective names!</h3>
+        <div class="game">
+            <h3>Score: <span id="score"></span></h3>
+            <div id="grid"></div>
+            <div class="text">Great work Champ! You won..</div>
+            <!-- link to game-map page (a href)-->
+            <a href="/gamemap"><button id="home">GAME-MAP</button></a>
+            <a href="/gamemap"><button id="exit-game">EXIT GAME</button></a>
+        </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/memorygame.js') }}"></script>
+</body>
+</html>
