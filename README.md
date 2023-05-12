@@ -8,7 +8,8 @@ SIGN IN PAGE
 ![Screenshot (2)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/811ce6d6-7da0-4267-a052-4df59bbb0971)
 
 OTP VERIFIED
-![Screenshot (3)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/3393866a-65d3-4b8c-87b2-04eff45f950b)
+![Screenshot (3)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/994dcf92-82c2-465d-b298-982a8b398c45)
+
 
 WELL RESEARCHED EFFECTIVE VIDEOS
 ![Screenshot (4)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/2ef0aa7b-78bb-439d-9e29-9ef7dcf10f7a)
@@ -20,6 +21,7 @@ WORD GAME
 ![Screenshot (6)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/b3f656e9-2c99-4157-bac8-debb8c69a6c8)
 
 QUIZ GAME
-![Screenshot (9)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/5600aa98-e63c-41ee-8f10-1ab2b6582440)
+![Screenshot (9)](https://github.com/harshita-2003/ED4ALL-/assets/119532943/bbc4c916-e0e2-4242-97fc-c502b1c683ff)
+
 
 AND MANY MORE...
